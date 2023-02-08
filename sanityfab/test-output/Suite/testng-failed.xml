@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="TestCases.profile_address">
+        <methods>
+          <include name="tearDown"/>
+          <include name="address"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- TestCases.profile_address -->
+      <class name="TestCases.forgetpassword_flow">
+        <methods>
+          <include name="forgetpass"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- TestCases.forgetpassword_flow -->
+      <class name="TestCases.paymentsinprofile">
+        <methods>
+          <include name="tearDown"/>
+          <include name="payments"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- TestCases.paymentsinprofile -->
+      <class name="TestCases.loginpage">
+        <methods>
+          <include name="tearDown"/>
+          <include name="loginpage1"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- TestCases.loginpage -->
+      <class name="TestCases.profile_orders">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="orders"/>
+        </methods>
+      </class> <!-- TestCases.profile_orders -->
+      <class name="TestCases.edit_profile">
+        <methods>
+          <include name="editpf"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- TestCases.edit_profile -->
+      <class name="TestCases.profile_changepassword">
+        <methods>
+          <include name="tearDown"/>
+          <include name="changepass"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- TestCases.profile_changepassword -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
